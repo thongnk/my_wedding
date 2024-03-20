@@ -305,16 +305,16 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 // #fh5co-header,
-// #fh5co-thanks,
-// #fh5co-event,
+// #thanks,
+// #event,
 // .fh5co-bg {
 // 	background-size: cover;
 // 	background-position: top center;
 // 	background-repeat: no-repeat;
 // 	position: relative;
 // }
-#fh5co-thanks,
-#fh5co-event,
+#thanks,
+#event,
 .fh5co-bg {
 	background-size: cover;
 	background-position: top center;
@@ -432,8 +432,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-thanks,
-#fh5co-event {
+#thanks,
+#event {
 	height: 850px;
 	float: left;
 	.display-t,
@@ -508,7 +508,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-thanks{
+#thanks{
 	height: 600px;
 	@media screen and (max-width: $screen-sm) {
 		height: auto;
@@ -686,7 +686,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // GALLERY
-#fh5co-gallery-list {
+#gallery-list {
 	@include flexwrap;
 	@include flex;
 	position: relative;
@@ -862,7 +862,7 @@ form {
 
 
 #fh5co-header,
-#fh5co-thanks,
+#thanks,
 .fh5co-cover {
 	.display-tc {
 		display: table-cell!important;
@@ -909,7 +909,7 @@ form {
 		}
 	}
 }
-#fh5co-thanks {	
+#thanks {	
 	text-align: center;
 	.counter {
 		font-size: 50px;
@@ -1005,10 +1005,10 @@ form {
 #fh5co-services,
 #fh5co-started,
 #fh5co-footer,
-#fh5co-event,
-#fh5co-couple-story,
-#fh5co-couple,
-#fh5co-gallery,
+#event,
+#couple-story,
+#couple,
+#gallery,
 .fh5co-section {
 	padding: 7em 0;
 	clear: both;
